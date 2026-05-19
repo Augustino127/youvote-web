@@ -2,13 +2,128 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="YouVote — Vote pour ton club, gagne des points, touche de l'argent. L'application football de l'Afrique de l'Ouest." />
+
+    <!-- ═══ SEO Primary ══════════════════════════════════════ -->
+    <title>YouVote — Vote pour ton club, gagne de l'argent en FCFA</title>
+    <meta name="description" content="YouVote est l'application mobile football de l'Afrique de l'Ouest. Vote pour ton club, joueur et coach préférés chaque jour, gagne des points et retire de l'argent réel en FCFA via Mobile Money." />
+    <meta name="keywords" content="YouVote, vote football, application football Bénin, gagner argent football, Mobile Money FCFA, vote club football Afrique, application sport Bénin, points football" />
+    <meta name="author" content="MINERGIE SARL" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://youvote-web.vercel.app/" />
+
+    <!-- ═══ Open Graph (Facebook, WhatsApp, LinkedIn) ════════ -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://youvote-web.vercel.app/" />
+    <meta property="og:title" content="YouVote — Vote pour ton club, gagne de l'argent" />
+    <meta property="og:description" content="Vote chaque jour pour ton club, joueur et coach préférés. Accumule des points et retire de l'argent réel en FCFA. Application football gratuite pour l'Afrique de l'Ouest." />
+    <meta property="og:image" content="https://youvote-web.vercel.app/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="YouVote" />
+
+    <!-- ═══ Twitter Card ══════════════════════════════════════ -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="YouVote — Vote pour ton club, gagne de l'argent" />
+    <meta name="twitter:description" content="Vote chaque jour pour ton club football préféré et gagne de l'argent réel en FCFA. Gratuit, disponible sur Android." />
+    <meta name="twitter:image" content="https://youvote-web.vercel.app/og-image.png" />
+
+    <!-- ═══ Mobile App Meta ═══════════════════════════════════ -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="YouVote" />
+    <meta name="theme-color" content="#D4A017" />
+
+    <!-- ═══ Favicon ═══════════════════════════════════════════ -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- ═══ Fonts ═════════════════════════════════════════════ -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <title>YouVote — Vote. Gagne. Encaisse.</title>
+
+    <!-- ═══ JSON-LD Structured Data ══════════════════════════ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MobileApplication",
+          "name": "YouVote",
+          "description": "Application mobile de vote football. Votez pour votre club, joueur et coach préférés, gagnez des points convertibles en FCFA via Mobile Money.",
+          "url": "https://youvote-web.vercel.app/",
+          "downloadUrl": "https://youvote-web.vercel.app/youvote.apk",
+          "operatingSystem": "Android",
+          "applicationCategory": "SportsApplication",
+          "inLanguage": "fr",
+          "isAccessibleForFree": true,
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "XOF"
+          },
+          "author": {
+            "@type": "Organization",
+            "name": "MINERGIE SARL",
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "BJ",
+              "addressLocality": "Cotonou"
+            }
+          },
+          "featureList": [
+            "Vote quotidien pour club, joueur et coach",
+            "Système de points et classements",
+            "Challenges hebdomadaires",
+            "Retrait en FCFA via Mobile Money",
+            "Parrainage avec bonus de points"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "name": "YouVote",
+          "url": "https://youvote-web.vercel.app/",
+          "description": "Plateforme officielle de l'application YouVote — Vote football et gains en FCFA",
+          "inLanguage": "fr",
+          "publisher": {
+            "@type": "Organization",
+            "name": "MINERGIE SARL",
+            "url": "https://youvote-web.vercel.app/"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Comment fonctionne YouVote ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Inscrivez-vous, votez chaque jour pour votre club, joueur et coach préférés. Chaque vote rapporte 3 points. Accumulez des points et retirez de l'argent en FCFA via Mobile Money."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Combien peut-on gagner avec YouVote ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "YouVote offre jusqu'à 69 points par jour hors challenges. 1 point = 0,5 FCFA. En votant régulièrement et en regardant des publicités, vous pouvez gagner de l'argent réel chaque semaine."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "YouVote est-il disponible sur iPhone ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "YouVote est actuellement disponible sur Android. Une version iOS est en cours de développement et sera bientôt disponible sur l'App Store."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
