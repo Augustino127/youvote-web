@@ -338,12 +338,9 @@ export default function App() {
 
             <div className="reveal flex flex-col sm:flex-row gap-4 justify-center" style={{ animationDelay: '0.2s' }}>
               <a
-                href="#download"
+                href="/youvote.apk"
+                download="youvote.apk"
                 className="btn-gold inline-flex items-center justify-center gap-3 text-lg"
-                onClick={(e) => {
-                  e.preventDefault()
-                  alert('L\'APK sera disponible très prochainement. Revenez bientôt !')
-                }}
               >
                 <span className="inline-flex items-center gap-3 relative z-10">
                   <IconAndroid />
