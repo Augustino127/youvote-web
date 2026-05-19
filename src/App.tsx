@@ -338,7 +338,7 @@ export default function App() {
 
             <div className="reveal flex flex-col sm:flex-row gap-4 justify-center" style={{ animationDelay: '0.2s' }}>
               <a
-                href="/youvote.apk"
+                href="https://github.com/Augustino127/youvote-web/releases/download/v1.0.0/youvote.apk"
                 download="youvote.apk"
                 className="btn-gold inline-flex items-center justify-center gap-3 text-lg"
               >
