@@ -369,25 +369,7 @@ export default function App() {
           </div>
         </section>
 
-        {/* ── Admin section ──────────────────────────────────── */}
-        <section className="py-16 dark:bg-charcoal-900 bg-gray-50 border-t border-gray-100 dark:border-white/5">
-          <div className="max-w-4xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-8 reveal">
-            <div>
-              <p className="section-eyebrow">Espace professionnel</p>
-              <h3 className="font-display text-3xl dark:text-white text-gray-900 mb-2">TABLEAU DE BORD ADMIN</h3>
-              <p className="text-gray-500 dark:text-gray-400 max-w-md">
-                Gérez les utilisateurs, les retraits, les challenges et les statistiques depuis le panneau d'administration sécurisé.
-              </p>
-            </div>
-            <a
-              href="https://youvote-admin-sooty.vercel.app"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="shrink-0 inline-flex items-center gap-2 px-8 py-4 border border-gold-500/40 text-gold-400 font-display tracking-wider text-xl hover:bg-gold-500/10 transition-colors rounded-sm"
-            >
-              Accéder à l'Admin →
-            </a>
-          </div>
+        {/* Admin section masquée intentionnellement */}
         </section>
 
         {/* ── Footer ─────────────────────────────────────────── */}
