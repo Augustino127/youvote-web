@@ -369,9 +369,6 @@ export default function App() {
           </div>
         </section>
 
-        {/* Admin section masquée intentionnellement */}
-        </section>
-
         {/* ── Footer ─────────────────────────────────────────── */}
         <footer className="py-10 bg-charcoal-950 dark:bg-black border-t border-white/5">
           <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
