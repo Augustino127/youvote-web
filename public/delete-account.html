@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suppression de compte — YouVote</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f8f9fa;
+      color: #1f2937;
+      line-height: 1.7;
+    }
+    header {
+      background: linear-gradient(135deg, #EF4444 0%, #DC2626 100%);
+      padding: 32px 24px;
+      text-align: center;
+    }
+    header h1 { color: #fff; font-size: 28px; font-weight: 700; }
+    header p  { color: rgba(255,255,255,0.85); margin-top: 6px; font-size: 14px; }
+    .container { max-width: 760px; margin: 0 auto; padding: 40px 24px 80px; }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 24px 28px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+      margin-bottom: 24px;
+    }
+    h2 { font-size: 17px; font-weight: 700; color: #1f2937; margin-bottom: 12px; }
+    p, li { font-size: 15px; color: #4b5563; margin-bottom: 8px; }
+    ul { padding-left: 20px; margin-top: 8px; }
+    li { margin-bottom: 6px; }
+    .step {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      padding: 16px 0;
+      border-bottom: 1px solid #f3f4f6;
+    }
+    .step:last-child { border-bottom: none; }
+    .step-num {
+      width: 32px;
+      height: 32px;
+      background: #EF4444;
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 14px;
+      flex-shrink: 0;
+    }
+    .step-content strong { display: block; font-size: 15px; color: #1f2937; margin-bottom: 4px; }
+    .step-content span { font-size: 14px; color: #6b7280; }
+    .warning {
+      background: #FEF2F2;
+      border: 1px solid #FECACA;
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin-bottom: 24px;
+      font-size: 14px;
+      color: #991b1b;
+    }
+    .email-btn {
+      display: inline-block;
+      background: #EF4444;
+      color: #fff;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 15px;
+      text-decoration: none;
+      margin-top: 8px;
+    }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th { background: #f9fafb; padding: 10px 14px; text-align: left; color: #374151; font-weight: 600; border-bottom: 1px solid #e5e7eb; }
+    td { padding: 10px 14px; color: #4b5563; border-bottom: 1px solid #f3f4f6; }
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 13px;
+      color: #9ca3af;
+      border-top: 1px solid #e5e7eb;
+      margin-top: 40px;
+    }
+    a { color: #EF4444; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Suppression de compte YouVote</h1>
+  <p>MINERGIE SARL — Cotonou, Bénin</p>
+</header>
+
+<div class="container">
+
+  <div class="warning">
+    ⚠️ La suppression de votre compte YouVote est définitive et irréversible. Toutes vos données, points et solde non retiré seront perdus.
+  </div>
+
+  <div class="card">
+    <h2>Comment demander la suppression de votre compte</h2>
+
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-content">
+        <strong>Depuis l'application YouVote</strong>
+        <span>Allez dans Profil → Paramètres → Mon compte → Supprimer mon compte</span>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-content">
+        <strong>Par email (si vous n'avez plus accès à l'app)</strong>
+        <span>Envoyez un email à contact@minergie.bj avec l'objet "Suppression de compte YouVote" en indiquant votre numéro de téléphone enregistré.</span>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-content">
+        <strong>Traitement sous 30 jours</strong>
+        <span>Votre demande sera traitée dans un délai maximum de 30 jours. Vous recevrez une confirmation par email.</span>
+      </div>
+    </div>
+
+    <a href="mailto:contact@minergie.bj?subject=Suppression%20de%20compte%20YouVote" class="email-btn">
+      Envoyer la demande par email
+    </a>
+  </div>
+
+  <div class="card">
+    <h2>Données supprimées et conservées</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Type de données</th>
+          <th>Action</th>
+          <th>Durée de conservation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Profil (nom, téléphone, email)</td>
+          <td>✅ Supprimé</td>
+          <td>Immédiat</td>
+        </tr>
+        <tr>
+          <td>Points et historique de votes</td>
+          <td>✅ Supprimé</td>
+          <td>Sous 30 jours</td>
+        </tr>
+        <tr>
+          <td>Solde FCFA non retiré</td>
+          <td>✅ Supprimé</td>
+          <td>Sous 30 jours</td>
+        </tr>
+        <tr>
+          <td>Données financières et transactions</td>
+          <td>⚠️ Conservé</td>
+          <td>5 ans (obligation légale)</td>
+        </tr>
+        <tr>
+          <td>Logs de connexion et IP</td>
+          <td>⚠️ Conservé</td>
+          <td>1 an (sécurité)</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Contact</h2>
+    <p><strong>MINERGIE SARL</strong></p>
+    <p>Cotonou, Bénin</p>
+    <p>Email : <a href="mailto:contact@minergie.bj">contact@minergie.bj</a></p>
+    <p style="margin-top:12px;"><a href="/privacy">→ Voir la politique de confidentialité complète</a></p>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 MINERGIE SARL — YouVote &nbsp;·&nbsp;
+  <a href="/">Retour au site</a>
+</footer>
+
+</body>
+</html>
